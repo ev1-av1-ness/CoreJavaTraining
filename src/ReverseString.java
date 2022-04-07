@@ -7,18 +7,14 @@ public class ReverseString {
 
     String s = "madam";
     String t = "";
+
     for (int i = s.length() - 1; i >= 0; i--) {
       //проиграть в обратном порядке
-
-      t = t + s.charAt(i);
-
+         t = t + s.charAt(i);
     }
-    if (s.equals(t)) {
-
-      System.out.println("it's a palindrome");
-
+      if (s.equals(t)) {
+          System.out.println("it's a palindrome");
     }
     //Strings are immutable in Java
   }
-
 }
